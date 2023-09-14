@@ -24,7 +24,9 @@ class MainActivity : AppCompatActivity() {
 
         
         // Respond to button click event per specifications
-
+        theButton.setOnClickListener{
+            displayTextView.text = "Hello, ${inputTextView.text}"
+        }
 
     }
 }
